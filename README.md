@@ -27,10 +27,11 @@ npm run start (in the 'react-graphql-client' folder)
 
 http://localhost:9000/graphiql
 
+
+```
 Sell. The react app subscribe to the sell, so it will display the total amount real time if frontend is
 running:
 
-```
 mutation {
   sellCar(amount: 100){
     amount
