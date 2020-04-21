@@ -1,0 +1,78 @@
+.cars {
+  background: #eee;
+  height: auto;
+  padding: 100px;
+  text-align: left;
+  padding-top: 20px;
+}
+
+.cars-title {
+  margin-top: 20px;
+  font-weight: bold;
+  display: flex;
+}
+
+.label-limit {
+  margin: 0 20px;
+  font-weight: normal;
+}
+
+.cars-title input {
+  margin: 0 20px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  border-top: 2px solid #ccc;
+  padding-top: 20px;
+}
+
+.list div {
+  height: 30px;
+  padding: 4px;
+  margin: 2px;
+}
+
+.list-row:nth-child(2n + 1) {
+  background: #f7f7f7;
+}
+
+.list-row:nth-child(2n) {
+  background: #ccc;
+}
+
+.list-row {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list-row div:first-child {
+  min-width: 80%;
+}
+
+.list-row:hover {
+  background: #ffedc8;
+}
+
+.list-row div {
+  padding: 2px;
+}
+
+.color {
+  width: 30px;
+  height: 30px;
+}
+
+.cars-sold {
+  margin: 40px;
+  border: 2px solid black;
+  background: #ccc;
+  padding: 20px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+}

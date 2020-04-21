@@ -1,0 +1,17 @@
+.cars-form {
+  display: table;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.row {
+  display: table-row;
+}
+
+.cell {
+  display: table-cell;
+}
+
+.actions .cell {
+  padding-top: 20px;
+}

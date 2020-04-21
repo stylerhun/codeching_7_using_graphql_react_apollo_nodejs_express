@@ -1,0 +1,15 @@
+[
+    { "id": 1, "name": "Audi", "color": "green" },
+    { "id": 2, "name": "Ferrari", "color": "red" },
+    { "id": 3, "name": "Lada", "color": "brown" },
+    { "id": 4, "name": "Lamborgini", "color": "grey" },
+    { "id": 5, "name": "Mercedes", "color": "black" },
+    { "id": 6, "name": "Trabant", "color": "blue" },
+    { "id": 7, "name": "Opel", "color": "white" },
+    { "id": 8, "name": "BMW", "color": "blue" },
+    { "id": 9, "name": "Volkswagen", "color": "yellow" },
+    { "id": 10, "name": "Porsche", "color": "red" },
+    { "id": 11, "name": "Renault", "color": "blue" },
+    { "id": 12, "name": "Tesla", "color": "white" }
+  ]
+  

@@ -1,0 +1,26 @@
+{
+  "name": "graphql-server",
+  "version": "1.0.0",
+  "description": "Test server in NodeJS for GraphQL",
+  "main": "index.js",
+  "scripts": {
+    "server": "node config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-express": "^1.4.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "graphql": "^15.0.0",
+    "graphql-subscriptions": "^1.1.0",
+    "graphql-tools": "^4.0.7",
+    "subscriptions-transport-ws": "^0.9.16"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0"
+  }
+}
